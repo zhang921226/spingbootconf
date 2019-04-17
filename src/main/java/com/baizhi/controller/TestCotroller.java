@@ -13,6 +13,7 @@ public class TestCotroller {
 
     @RequestMapping("testDruid")
     public String testDruid(){
+        System.out.println("你好未来");
         return "index";
     }
 }
